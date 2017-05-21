@@ -63,7 +63,10 @@ CREATE TABLE `books` (
 
 INSERT INTO `books` (`id`, `name`, `author_id`) VALUES
 (1, 'I, Robot', 1),
-(2, 'The Caves of Steel', 1),
+(2, 'The Caves of Steel', 1, "description": " is a novel by American writer Isaac Asimov. It is essentially a detective story, and illustrates an idea Asimov advocated, that science fiction is a flavor that can be applied to any literary genre, rather than a limited genre itself.
+The book was first published as a serial in Galaxy magazine, from October to December 1953. A Doubleday hardcover followed in 1954.
+A television adaptation was made by the BBC and shown in 1964: only a few short excerpts still exist. In June 1989, the book was adapted by Bert Coules as a radio play for the BBC,
+with Ed Bishop as Elijah Baley and Sam Dastor as R. Daneel Olivaw. More recently, Akiva Goldsman has been hired to produce a movie", "img": "https://en.wikipedia.org/wiki/The_Caves_of_Steel#/media/File:The-caves-of-steel-doubleday-cover.jpg"),
 (3, 'The Naked Sun', 1),
 (4, 'The Robots of Dawn', 1),
 (5, 'Robots and Empire', 1),
